@@ -1,0 +1,198 @@
+{
+    "0": {
+        "Name": "StartingRoom0",
+        "Description": "This is the room you woke up in. It is made of stone and has torches along the wall. There are puddles on the floor.",
+        "Looks": {
+            "#AROUND": "You look around the room. It is quite dark, despite the torches. The floor is damp, with the occasional puddle dotting it. The room has been constructed from some kind of muted grey stone, looking particularly weathered.",
+            "#INTO": "You look into the room you woke up in. The light of the torches flicker.",
+
+            "floor": "You look down at the floor. It is made out of the same type of dull grey stone as the walls and ceiling. It looks old and weathered, but particularly so in the place you were lying, making a slight indent into the floor. There are some noticeable scratches and marks in it.",
+
+            "ground": "You look down at the ground. The ground is made out of the same type of dull grey stone as the walls and ceiling. It looks old and weathered, but particularly so in the place you were lying, making a slight indent into the floor. There are some noticeable scratches and marks in it.",
+
+            "down": "You look down at the floor. The floor is made out of the same type of dull grey stone as the walls and ceiling. It looks old and weathered, but particularly so in the place you were lying, making a slight indent into the floor. There are some noticeable scratches and marks in it.",
+
+            "ceiling": "You look up at the ceiling. There are noticeable gaps between the stone blocks that form the ceiling of the room. As you look up, a drop of water falls from one of the gaps, onto your face.",
+
+            "up": "You look up at the ceiling. There are noticeable gaps between the stone blocks that form the ceiling of the room. As you look up, a drop of water falls from one of the gaps, onto your face.",
+
+            "walls": "You look at the walls of the room. Other than the torches, the walls are unadorned, composed of the same grey stone that the rest of the room is.",
+
+            "wall": "You look at the walls of the room. Other than the torches, the walls are unadorned, composed of the same grey stone that the rest of the room is.",
+
+            "torch": "You look at the torches filling the room. Immediately you notice something strange. Torches like this aren't generally used inside, due to smoke filling the air and a pile of ash forming under it, however you notice none of that with these torches. In fact, despite producing light, you can feel no heat from these torches, as if the flame is just an illusion. They seem completely inseparable from the wall.",
+
+            "torches": "You look at the torches filling the room. Immediately you notice something strange. Torches like this aren't generally used inside, due to smoke filling the air and a pile of ash forming under it, however you notice none of that with these torches. In fact, despite producing light, you can feel no heat from these torches, as if the flame is just an illusion. They seem completely inseparable from the wall.",
+
+            "light": "You look at the torches that light the room. Immediately you notice something strange. Torches like this aren't generally used inside, due to smoke filling the air and a pile of ash forming under it, however you notice none of that with these torches. In fact, despite producing light, you can feel no heat from these torches, as if the flame is just an illusion. They seem completely inseparable from the wall.",
+
+            "puddle": "You look at the puddles on the floor. They seem completely innocuous, but despite the water droplets never ceasing, the puddles don't seem to be growing much if at all.",
+
+            "puddles": "You look at the puddles on the floor. They seem completely innocuous, but despite the water droplets never ceasing, the puddles don't seem to be growing much if at all.",
+
+            "water": "You look at the puddles on the floor. They seem completely innocuous, but despite the water droplets never ceasing, the puddles don't seem to be growing much if at all. Had you any knowledge on magic, you might have been able to discern whether these puddles are truly mundane or not, however if you did have those skills, you wouldn't still be an adventurer.",
+
+            "drops": "You look at the occasional drops of water falling from the ceiling. You can't see anything special about them at a glance, but they seem to fall with eerie consistency, as if you're watching the ticking of a clock instead of the falling of water. Some of the droplets have formed puddles on the floor, while others seemingly disappear into the gaps between the stone blocks of the floor.",
+
+            "drop": "You look at the occasional drops of water falling from the ceiling. You can't see anything special about them at a glance, but they seem to fall with eerie consistency, as if you're watching the ticking of a clock instead of the falling of water. Some of the droplets have formed puddles on the floor, while others seemingly disappear into the gaps between the stone blocks of the floor.",
+
+            "droplets": "You look at the occasional droplets of water falling from the ceiling. You can't see anything special about them at a glance, but they seem to fall with eerie consistency, as if you're watching the ticking of a clock instead of the falling of water. Some of the droplets have formed puddles on the floor, while others seemingly disappear into the gaps between the stone blocks of the floor.",
+
+            "droplet": "You look at the occasional droplets of water falling from the ceiling. You can't see anything special about them at a glance, but they seem to fall with eerie consistency, as if you're watching the ticking of a clock instead of the falling of water. Some of the droplets have formed puddles on the floor, while others seemingly disappear into the gaps between the stone blocks of the floor.",
+
+            "": ""
+        },
+        "Exits": [ "east", "west" ],
+        "Attributes": {
+            "Light_Level": 8,
+            "EnemySpawn" :  0
+        }
+    },
+
+
+    "1": {
+        "Name": "StoneCorridor1",
+        "Description": "You enter a long stone corridor.",
+        "Looks": {
+            "#AROUND": "You look around the stone corridor. Nothing seems off about it, it looks like a regular corridor.",
+            "#INTO": "You look into a stone corridor. You can see to the end of the corridor, but you can't quite see what's beyond the corridor, it's too dark.",
+
+            "floor": "You look down at the floor. It's made of stone tiles. They look worn but not too worn.",
+
+            "ground": "You look down at the ground. It's made of stone tiles. They look worn but not too worn.",
+
+            "down": "You look down at the floor. It's made of stone tiles. They look worn but not too worn.",
+
+            "ceiling": "You look up at the ceiling. The stone bricks that make up the ceiling look sturdy. There aren't any cracks or gaps in it.",
+
+            "up": "You look up at the ceiling. The stone bricks that make up the ceiling look sturdy. There aren't any cracks or gaps in it.",
+
+            "walls": "You look at the walls of the room. They are made of a plain stone brick, unadorned and bare.",
+
+            "wall": "You look at the walls of the room. They are made of a plain stone brick, unadorned and bare.",
+
+            "light": "The room has no light in it, other than the one you're carrying. You imagine it would be pretty dark without it."
+        },
+        "Exits": [ "north", "south" ],
+        "Attributes": {
+            "Light_Level": 0,
+            "EnemySpawn": 1
+        }
+    },
+
+
+    "2": {
+        "Name": "GapingHole2",
+        "Description": "You enter a room, if it can even be called that, that has a large chasm in it, preventing you from continuing onward.",
+        "Looks": {
+            "#AROUND": "You look around the 'room.' Beyond the entryway, there is little ground before the sheer drop of the chasm. The entire room ends beyond it, as if it had been consumed by the abyss. You get the feeling that you shouldn't linger here.",
+            "#INTO": "You look into an odd room. The room seems to entirely end past a certain point, the ground disappearing into nothingness.",
+
+            "floor": "You look down at the floor, what little floor is left. It is made of cracked stone tiles. They feel incredibly loose and weak, as if they might crumble beneath your feet at any moment. The cracks are particularly bad closer to the chasm until the ground looks more like dust than stone.",
+
+            "ground": "You look down at the ground, what little ground remains. It is made of cracked stone tiles. They feel incredibly loose and weak, as if they might crumble beneath your feet at any moment. The cracks are particularly bad closer to the chasm until the ground looks more like dust than stone.",
+
+            "down": "You look down at the floor, what little floor is left. It is made of cracked stone tiles. They feel incredibly loose and weak, as if they might crumble beneath your feet at any moment. The cracks are particularly bad closer to the chasm until the ground looks more like dust than stone.",
+
+            "ceiling": "You look up at the ceiling, or you would have if there was any ceiling. Above you is just darkness. You cannot see how far it goes, nor make out any shapes in it. You get a bad feeling.",
+
+            "up": "You look up. There is nothing but darkness above you. Where there might once have been a ceiling is just emptiness.",
+
+            "walls": "You look at the walls of the room, if they can even be called walls anymore. There are some stone bricks on either side of you, however they seem to have mostly crumbled into dust, with the highest parts of walls, only going up to the height of the entryway you came from.",
+
+            "wall": "You look at the walls of the room, if they can even be called walls anymore. There are some stone bricks on either side of you, however they seem to have mostly crumbled into dust, with the highest parts of walls, only going up to the height of the entryway you came from.",
+
+            "light": "The space is horrifyingly dark, in fact, it's almost as if the light of your torch is being drowned out by the oppressive darkness everywhere. Although your the torch you were holding was once bright and seemingly unextinguishable, it seems far dimmer here and almost fragile, as if a light breeze could put it out.",
+
+            "darkness": "You look into the darkness, however you can't see anything through it. There is nothing beyond the chasm, not that you can see anyway. The darkness seems unending in all directions but the one you came from.",
+
+            "chasm": "You look into the chasm. Beyond the dusty remains of the floor, you see an almost perfectly vertical wall of stone going down for as far as you can see, which isn't particularly far.",
+
+            "abyss": "You look into the abyss. Although you cannot see anything, you get the uncomfortable feeling that something is looking back."
+        },
+        "Exits": [ "north" ],
+        "Attributes": {
+            "Light_Level": 0,
+            "EnemySpawn": 0
+        }
+    },
+
+
+    "3": {
+        "Name": "Cells3",
+        "Description": "You enter a room filled with dungeon cells lining one wall. The air feels cold and damp. You notice what looks like black moss growing sparsely across the floor and walls, despite the absence of a light source other than your own. there are two more exits, one on each of the four walls except the one with cells.",
+        "Looks": {
+            "#AROUND": "You look around the room. There are four cells lining one wall. The bars seem very rusty and look as if you could break them with relative ease. There are chains bolted to the walls and black moss growing here and there, on both the floor and walls, however there is nothing else within the cells. No bed, toilet or other furnishings. ",
+            "#INTO": "You look into a room with dungeon cells stood against one of the walls. A black moss grows in small clumps, spread out across the floor and walls.",
+
+            "floor": "You look down at the floor. It is mostly composed of what looks like uneven stone bricks, however, within some of the cells you can see places where the bricks were removed, exposing what looks like solid stone. Some sort of black moss sporadically covers the floor.",
+
+            "ground": "You look down at the ground. It is mostly composed of what looks like uneven stone bricks, however, within some of the cells you can see places where the bricks were removed, exposing what looks like solid stone. Some sort of black moss sporadically covers the floor.",
+
+            "down": "You look down at the floor. It is mostly composed of what looks like uneven stone bricks, however, within some of the cells you can see places where the bricks were removed, exposing what looks like solid stone. Some sort of black moss sporadically covers the floor.",
+
+            "ceiling": "You look up at the ceiling. The ceiling is made of uneven stone bricks. Some look almost as if they're about to fall out.",
+
+            "up": "You look up at the ceiling. The ceiling is made of uneven stone bricks. Some look almost as if they're about to fall out.",
+
+            "walls": "You look at the walls of the room. They are made of similar stone brick to the floor and ceiling, looking slightly uneven and unsturdy. Once perhaps, these walls were more structurally sound, however, the moss covering them suggests that this room has either been completely neglected by it's owner, or that they've been gone for a long time.",
+
+            "wall": "You look at the walls of the room. They are made of similar stone brick to the floor and ceiling, looking slightly uneven and unsturdy. Once perhaps, these walls were more structurally sound, however, the moss covering them suggests that this room has either been completely neglected by it's owner, or that they've been gone for a long time.",
+
+            "light": "The room has no light in it, other than the one you're carrying, raising the question of how the moss managed to grow here. You've also never heard of living moss that is black, although it's hard to tell if the moss is alive. Not that you're a herbalist, you think?",
+
+            "moss": "You look at the black moss. It looks surprisingly soft. It looks so comfortable. You could just lie down and sleep forever......\nBut you have something to do, you think? You can't waste time here."
+        },
+        "Exits": [ "north", "east", "west" ],
+        "Attributes": {
+            "Light_Level": 0,
+            "EnemySpawn": 3
+        }
+    },
+
+
+    "4": {
+        "Name": "HealingPool4",
+        "Description": "You walk into a room with a pool in the centre. In the centre of the pool is a statue of an androgynously shaped figure in robes. The head of the statue has been removed and cannot be seen nearby. The pool seems to be softly glowing and has a slight green tint, but is otherwise perfectly clear. Motes of light are floating in the air.",
+        "Looks": {
+            "#AROUND": "[004]I just need extra rooms",
+            "#INTO": "[004]I just need extra rooms"
+        },
+        "Exits": [ "north", "east", "south", "west" ],
+        "Attributes": {
+            "Light_Level": 0,
+            "EnemySpawn": 0
+        }
+    },
+
+
+    "5": {
+        "Name": "LargeHall5",
+        "Description": "[005]I just need extra rooms",
+        "Looks": {
+            "#AROUND": "[005]I just need extra rooms",
+            "#INTO": "[005]I just need extra rooms"
+        },
+        "Exits": [ "north", "east", "south", "west" ],
+        "Attributes": {
+            "Light_Level": 0,
+            "EnemySpawn": 2
+        }
+    },
+
+
+    "6": {
+        "Name": "Tomb6",
+        "Description": "[006]I just need extra rooms",
+        "Looks": {
+            "#AROUND": "[006]I just need extra rooms",
+            "#INTO": "[006]I just need extra rooms"
+        },
+        "Exits": [ "south" ],
+        "Attributes": {
+            "Light_Level": 0,
+            "EnemySpawn": 0
+        }
+    }
+
+}
